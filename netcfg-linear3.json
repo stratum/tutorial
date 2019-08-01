@@ -1,0 +1,25 @@
+{
+  "devices": {
+    "device:s1": {
+      "basic": {
+        "managementAddress": "grpc://host.docker.internal:50001?device_id=1",
+        "driver": "stratum-bmv2",
+        "pipeconf": "org.onosproject.pipelines.basic"
+      }
+    },
+    "device:s2": {
+      "basic": {
+        "managementAddress": "grpc://192.168.65.2:50002?device_id=1",
+        "driver": "stratum-bmv2",
+        "pipeconf": "org.onosproject.pipelines.basic"
+      }
+    },
+    "device:s3": {
+      "basic": {
+        "managementAddress": "grpc://192.168.65.2:50003?device_id=1",
+        "driver": "stratum-bmv2",
+        "pipeconf": "org.onosproject.pipelines.basic"
+      }
+    }
+  }
+}
