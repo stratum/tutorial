@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#FIXME update cfg directory to path based on location of this shell script
+
 docker run -it --rm \
   -v $PWD/cfg:/tmp/cfg \
   p4lang/p4runtime-sh \
