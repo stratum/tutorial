@@ -31,7 +31,7 @@ Once you see ONOS' log has quieted down (logging slows), you will push informati
 In a third shell, run:
 
 ```
-netcfg
+make netcfg
 ```
 
 Now, Stratum, Trellis, and ONOS should be properly configured.
