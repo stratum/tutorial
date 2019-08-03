@@ -8,7 +8,7 @@ Each command can be run from a Unix-style shell (e.g. Bash), and the only requir
 
 By default, Mininet starts a topology with a single switch and two hosts connected to it.
 
-FIXME insert image here
+![topo](single-topo.png)
 
 To start the switch, run:
 
