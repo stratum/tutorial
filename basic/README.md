@@ -243,7 +243,7 @@ You can see there are two interfaces, and the names and port numbers match the t
 Next, we can read the ingress unicast packet counters:
 
 ```
-$ ./gnmi-cli.sh --poll-interval 1000 sub-poll /interfaces/interface[name=s1-eth1]/state/counters/in-unicast-pkts
+$ ./gnmi-cli.sh --interval 1000 sub-sample /interfaces/interface[name=s1-eth1]/state/counters/in-unicast-pkts
 ```
 
 This command will print the number of packets received on port 1 every second. Here is an example of one response:
@@ -292,7 +292,7 @@ Finally, we can demonstrate gNMI set and on-change subscriptions.
 Start a subscription for the operational status of port 1:
 
 ```
-$ ./gnmi-cli.sh sub /interfaces/interface[name=s1-eth1]/state/oper-status
+$ ./gnmi-cli.sh sub-onchange /interfaces/interface[name=s1-eth1]/state/oper-status
 ```
 
 You should see the following response which indicates that port 1 is `UP`:

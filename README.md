@@ -8,6 +8,8 @@ The Trellis tutorial will show you how to start a 2x2 leaf-spine fabric topology
 
 ## Starting a Mininet topology of Stratum switches
 
+This tutorial uses Docker. If it is not installed, follow [these instructions](https://docs.docker.com/install/) to install it.
+
 There is a Docker container with Mininet and the Stratum BMv2 switch preinstalled: `opennetworking/mn-stratum`
 
 We can use the following command to start the container:
