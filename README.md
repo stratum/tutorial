@@ -37,3 +37,7 @@ You can find the basic tutorial in the [`basic`](basic) directory.
 ## Trellis Tutorial
 
 You can find the Trellis tutorial in the [`trellis`](trellis) directory.
+
+## NG-SDN (Next-Generation SDN) Tutorial
+
+You can find the NG-SDN tutorial in the [`ngsdn-tutorial`](https://github.com/opennetworkinglab/ngsdn-tutorial) repo.
