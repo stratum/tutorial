@@ -41,3 +41,7 @@ You can find the Trellis tutorial in the [`trellis`](trellis) directory.
 ## NG-SDN (Next-Generation SDN) Tutorial
 
 You can find the NG-SDN tutorial in the [`ngsdn-tutorial`](https://github.com/opennetworkinglab/ngsdn-tutorial) repo.
+
+## ONF Connect 2019 Interoperability Demo
+
+If you'd like to try Stratum out on hardware, you can find the code in the [`stratum-onos-demo`](https://github.com/opennetworkinglab/stratum-onos-demo) repo to reproduce the ONF Connect 2019 Interoperability Demo.
