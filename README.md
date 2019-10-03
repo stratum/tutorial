@@ -1,4 +1,8 @@
-# Stratum "Getting Started" Tutorial
+# Stratum Tutorials
+
+This repository contains the "getting started" tutorial. At the bottom of this page, there are more links to other more advanced tutorials that leverage Stratum.
+
+## "Getting Started" Tutorial
 
 This tutorial will teach you how to start a [Mininet](https://github.com/mininet/mininet) network of Stratum software switches (backed by [bmv2](https://github.com/p4lang/behavioral-model)).
 
@@ -6,7 +10,7 @@ The basic tutorial will show you how to use the [P4Runtime shell](https://github
 
 The Trellis tutorial will show you how to start a 2x2 leaf-spine fabric topology, start ONOS with the required Trellis applicaitons, and push the configuration to get everything connected.
 
-## Starting a Mininet topology of Stratum switches
+### Starting a Mininet topology of Stratum switches
 
 This tutorial uses Docker. If it is not installed, follow [these instructions](https://docs.docker.com/install/) to install it.
 
@@ -30,11 +34,11 @@ You can also pass standard Mininet arguments. For example to start a 3 switch li
 
 To see a full list of Mininet arguments by appending `-h` to the Docker command.
 
-## Basic Tutorial
+### Basic Tutorial
 
 You can find the basic tutorial in the [`basic`](basic) directory.
 
-## Trellis Tutorial
+### Trellis Tutorial
 
 You can find the Trellis tutorial in the [`trellis`](trellis) directory.
 
@@ -45,3 +49,10 @@ You can find the NG-SDN tutorial in the [`ngsdn-tutorial`](https://github.com/op
 ## ONF Connect 2019 Interoperability Demo
 
 If you'd like to try Stratum out on hardware, you can find the code in the [`stratum-onos-demo`](https://github.com/opennetworkinglab/stratum-onos-demo) repo to reproduce the ONF Connect 2019 Interoperability Demo.
+
+## P4 Tutorials
+
+To learn P4: https://github.com/p4lang/tutorials
+
+For a more advanced tutorial that use ONOS and Stratum in an SRv6 fabric: 
+https://github.com/opennetworkinglab/onos-p4-tutorial
