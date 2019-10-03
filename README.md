@@ -44,7 +44,7 @@ You can find the Trellis tutorial in the [`trellis`](trellis) directory.
 
 ## NG-SDN (Next-Generation SDN) Tutorial
 
-You can find the NG-SDN tutorial in the [`ngsdn-tutorial`](https://github.com/opennetworkinglab/ngsdn-tutorial) repo.
+To learn more about Stratum's northbound interfaces (P4Runtime, gNMI and gNOI), you can find the NG-SDN tutorial in the [`ngsdn-tutorial`](https://github.com/opennetworkinglab/ngsdn-tutorial) repo.
 
 ## ONF Connect 2019 Interoperability Demo
 
@@ -52,7 +52,6 @@ If you'd like to try Stratum out on hardware, you can find the code in the [`str
 
 ## P4 Tutorials
 
-To learn P4: https://github.com/p4lang/tutorials
+To learn P4, you can find a basic tutorial in the [`p4lang/tutorials`](https://github.com/p4lang/tutorials) repo. 
 
-For a more advanced tutorial that use ONOS and Stratum in an SRv6 fabric: 
-https://github.com/opennetworkinglab/onos-p4-tutorial
+For a more advanced tutorial that use ONOS and Stratum in an SRv6 fabric, you can try the [`onos-p4-tutorial`](https://github.com/opennetworkinglab/onos-p4-tutorial).
